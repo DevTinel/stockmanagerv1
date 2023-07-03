@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Input from "../../components/Input/Input";
 import "./Register.css";
 import { BiCaretDown } from "react-icons/bi";
-import Teste from "../ProductMediunPayment/Teste";
 
 const Register = () => {
     const [clicado, setClicado] = useState(null);
@@ -107,7 +106,6 @@ const Register = () => {
                                 )}
                             </div>
                         </div>
-                        <Teste />
                         <h4>R$ 0,00</h4>
                     </div>
                 </div>
