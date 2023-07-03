@@ -1,0 +1,104 @@
+.container-login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-img {
+    width: 35%;
+    background-color: #085d96;
+    border-radius: 50%;
+    transition: 0.5s;
+    box-shadow: 4px 4px 10px #95bed4;
+}
+.login-img:hover {
+    background-color: #085d96;
+    border-radius: 30px;
+}
+.login-itens {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+input:not([type="checkbox"]) {
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: 1px solid #032244;
+    widows: 100%;
+}
+input:not([type="checkbox"]):focus {
+    box-shadow: 1px 1px 4px #032244;
+}
+
+.inputs-login h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: "Mochiy Pop One", sans-serif;
+    color: #085d96;
+}
+.inputs-login {
+    width: 400px;
+}
+.forgetpass {
+    color: #085d96;
+    font-weight: normal;
+    font-style: italic;
+}
+.forgetpass:hover {
+    text-decoration: underline;
+}
+.extras {
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox-input {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+form button {
+    background-color: #085d96;
+    color: #fff;
+    padding: 20px 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 10px #083852;
+}
+form button:hover {
+    background-color: #000;
+    color: #e5e9eb;
+    padding: 20px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px #000;
+
+    transform: scale(1.01);
+}
+.link-register {
+    color: #085d96;
+    font-weight: normal;
+    margin-left: 5px;
+    font-style: italic;
+}
+.link-register:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #e8f1f8;
+    background-color: #fff;
+    padding: 20px;
+}
+header p {
+    display: flex;
+    gap: 10px;
+}
+header img {
+    width: 400px;
+}
+header a {
+    color: #021122;
+}
