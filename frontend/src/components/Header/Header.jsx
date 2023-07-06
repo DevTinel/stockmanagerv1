@@ -12,8 +12,8 @@ const Header = () => {
             </Link>
             <p>
                 Já possui conta?
-                {/* <Link to="/login">Faça o login</Link> */}
-                <Link to="/user">Faça o login</Link>
+                <Link to="/login">Faça o login</Link>
+                {/* <Link to="/user">Faça o login</Link> */}
             </p>
         </header>
     );
